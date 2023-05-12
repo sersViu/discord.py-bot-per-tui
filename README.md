@@ -4,7 +4,7 @@
 
 تو این اموزش یاد میگیرید چطوری یک بات دیسکورد به زبان پایتون بنویسید
 
-#پیش نیاز ها🤨
+# پیش نیاز ها🤨
 [PyCharm](https://www.jetbrains.com/pycharm/download/)
 [or Visual Studio Code](https://code.visualstudio.com/download/)
 
