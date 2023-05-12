@@ -11,6 +11,9 @@
 [or Visual Studio Code](https://code.visualstudio.com/download/)
 
 
+[python](https://www.python.org/downloads/)
+
+
 # چگونه یک بات بسازیم برایه شروع؟
 
 اول از همه میرسیم به راحت ترین بخش کار یعنی ساخت بات اول میرین تویه سایت discord devloper
