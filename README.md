@@ -43,3 +43,24 @@ https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/722a3bdf-1039
 https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/183b305c-39b0-4ba6-84cf-b9462e69a389
 
 
+* خب ما الان باتو ساختیم چطور اینوایتش بدیم به سرورمون؟
+* باید اول پرمیشن هایه بات رو مشخص کنید سپس اون پاین یه لینکی بهتون میده میرین تو مرورگر میزنید باتتونو اینوایت میدین!
+* به این شکل
+
+
+<img width="922" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/b2b5b295-8b0f-4656-a371-75847b30d1c6">
+
+
+* اول تیک باتو میزنید یه لیست اون پاین باز میشه که چیزایی که ما برایه باتمون باید فعال کنیم ایناس!
+
+
+<img width="1015" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/bc099e5d-1920-4c18-886c-3da151516137">
+
+* یا دیدین یکسری از بات ها add to server دارن پاین نیک نیمشون؟
+* برید تویه genral و این مراحل رو انجام بدید 
+
+
+<img width="994" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/785e5d97-2fb6-45fd-97c7-d7cb56f96094">
+
+
+
