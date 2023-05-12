@@ -57,10 +57,12 @@ https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/183b305c-39b0
 <img width="1015" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/bc099e5d-1920-4c18-886c-3da151516137">
 
 * یا دیدین یکسری از بات ها add to server دارن پاین نیک نیمشون؟
-* برید تویه genral و این مراحل رو انجام بدید 
+* برید تویه جنرال و مراحل زیر رو انجام بدید توجه داشته باشید ادمیناستور نزنید و همون پرم هایه قبل رو بش بدید
 
 
 <img width="994" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/785e5d97-2fb6-45fd-97c7-d7cb56f96094">
+
+
 
 
 
