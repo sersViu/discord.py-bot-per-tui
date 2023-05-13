@@ -154,5 +154,18 @@ pip install discord.py
 ```py
 pip install pathlib
 ```
+این دستورات رو تویه `Command prompt` تویه ترمینال بزنید و بوم پیش نیاز ها نصب شد
+اما ما یچیز دیگه میخایم اونم config.json هست
+* برایه درست کردنش دقیفا کنار `main.py` یک فایل بسازید بنام `config.json`
+* بعد توش کدایه زیر رو بنویسید
+
+```json
+
+{
+ "token": "your_bot_token",
+ "application-id": "application_id_of-your_bot"
+}
+
+```
 
 
