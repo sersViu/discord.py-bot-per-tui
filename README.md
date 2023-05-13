@@ -64,5 +64,16 @@ https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/183b305c-39b0
 
 
 
+هورا الان بات ما به سرور اد شد و اد تو سرور هم داره!!!
+
+<img width="492" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/89537b00-4f17-4f6d-9371-5813bb93aad3">
+
+# انلاین کردن بات و استواتوس ها✨
+***اینجا ما میرسیم به بخش مهم داستان یعنی انلاین کرد بات و تنظیم استاتوس ها**
+
+
+
+
+
 
 
