@@ -85,6 +85,8 @@ https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/183b305c-39b0
 import discord
 from discord.ext import commands 
 from pathlib import Path
+import json
+import logging
 logging.basicConfig(level=logging.DEBUG)
 
 
@@ -140,8 +142,17 @@ async def on_ready(self):
 if __name__ == "__main__":
     config = json.loads(open("config.json").read())
 bot = Bot(config)
+bot.run(config["token"])
+```
+# نصب پیش نیاز ها🎗️
+خب طبیعتا کد بالا رو همینجوری بزنید کار نمیکنه پس باید پیش نیاز هارو نصب کنید اینجوری
+
+```py
+pip install discord.py
 ```
 
-
+```py
+pip install pathlib
+```
 
 
