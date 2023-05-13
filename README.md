@@ -77,9 +77,70 @@ https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/183b305c-39b0
 * بنابرین کدی که به روش تک فایلی نوشته شده رو همینجوری تبدیل به cogs نکنین!!
 
 
+***اول شما در هر برنامیه ویرایش کدی هستید یک فایل بنام  `main.py`
+***بسازید که معمولا خودش خودکار تو پای چارم انجام میشه
+حالا وقتشه که کد ران بات رو بزنیم!!
+```py
+
+import discord
+from discord.ext import commands 
+from pathlib import Path
+logging.basicConfig(level=logging.DEBUG)
+
+
+# Load bot configuration from JSON file
+with open("config.json") as f:
+    config = json.load(f)
+
+# Set up bot intents
 
 
 
+
+# Command to generate an embed message containing information about a specified user
+class Bot(commands.Bot):
+    def __init__(self, config):
+        super().__init__(
+            command_prefix="!",
+            help_command=None,
+            intents=discord.Intents.all(),
+            application_id=config["application-id"]
+
+
+       )
+
+        self.config = config
+
+
+
+
+    async def setup_hook(self):
+        for file in Path("cogs").glob("*.py"):
+            cog_name = file.name.split(".")[0]
+            await self.load_extension(f"cogs.{cog_name}")
+            print("loaded extention:", file.name)
+
+    async def on_ready(self):
+        logging.info(f"{self.user.name} has connected to Discord!")
+        print(f"Connected to {len(self.guilds)} guilds")
+        activity = discord.Activity(name='fela heci', type=discord.ActivityType.watching)
+        await self.change_presence(status=discord.Status.idle, activity=activity)
+
+
+async def on_ready(self):
+    logging.info(f"{bot.user.name} has connected to Discord!")
+    print(f"Connected to {len(bot.guilds)} guilds")
+    activity = discord.Activity(name='fela heci', type=discord.ActivityType.watching)
+    await bot.change_presence(status=discord.Status.idle, activity=activity)
+
+
+
+
+
+if __name__ == "__main__":
+    config = json.loads(open("config.json").read())
+bot = Bot(config)
+```
 
 
 
