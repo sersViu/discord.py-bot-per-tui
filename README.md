@@ -167,5 +167,11 @@ pip install pathlib
 }
 
 ```
+باید بجایه `token`توکن بات خودتون رو قرار بدید و بجایه `application-i`اپیکیشن ایدی باتتون رو قرار بدید که اموزش دوتاشون اینجاست
+
+
+
+https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/7a336a2e-c09e-4188-be53-ae55a59dee6f
+
 
 
