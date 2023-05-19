@@ -240,3 +240,7 @@ async def setup(bot):
    این یک کد ساده اسلشی هست که به شما میگه pong بریم تستش کنیم!
    
 
+https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/c1bf17ff-0804-43ff-bb2f-83b7d2450d1b
+
+
+
