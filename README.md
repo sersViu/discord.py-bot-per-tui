@@ -123,6 +123,7 @@ class Bot(commands.Bot):
             cog_name = file.name.split(".")[0]
             await self.load_extension(f"cogs.{cog_name}")
             print("loaded extention:", file.name)
+        await self.tree.sync()
 
     async def on_ready(self):
         logging.info(f"{self.user.name} has connected to Discord!")
@@ -131,11 +132,7 @@ class Bot(commands.Bot):
         await self.change_presence(status=discord.Status.idle, activity=activity)
 
 
-async def on_ready(self):
-    logging.info(f"{bot.user.name} has connected to Discord!")
-    print(f"Connected to {len(bot.guilds)} guilds")
-    activity = discord.Activity(name='fela heci', type=discord.ActivityType.watching)
-    await bot.change_presence(status=discord.Status.idle, activity=activity)
+
 
 
 
