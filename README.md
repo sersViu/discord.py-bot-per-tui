@@ -243,8 +243,48 @@ async def setup(bot):
 https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/c1bf17ff-0804-43ff-bb2f-83b7d2450d1b
 
 * خب شاید بخاین کامندی که میزنید رو فقط خودتون ببینید و کس دیگه ای نبینه پس میاید اینا و این کارو میکنید
+* توجه کنید این قابلیت فقط برا اسلش کامند و باتن هاست باسه کامند معمولی یا چیز دیگه ای نمیشه
 
 <img width="374" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/3b75cb64-d58e-4bb6-989c-e006ccc4fa72">
+
+بوم و پیام بات ما فقط برا خودمون نمایش داده میشه!
+
+
+<img width="388" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/540c75e4-37b8-4649-a332-e87af8523708">
+
+# باتن ها buttons🔳
+
+باتن ها یک چیز خیلی خوب هستن که باهاشون میشه همه کاری کرد 
+این یک نمونه باتن هست 
+```py
+import discord
+from discord import interactions, app_commands
+from discord.ext import commands
+
+class Button(discord.ui.View):
+    def __init__(self, *, timeout=180, boble=None, rand_receipt=None):
+        super().__init__(timeout=timeout)
+        self.button_clicked = False
+
+
+    @discord.ui.button(label="yek dokme", style=discord.ButtonStyle.danger, emoji="📁")
+    async def vay(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await interaction.response.send_message("oh to roye button click kardi", ephemeral=True)
+
+class Button(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+    @app_commands.command(name="button", description="yek adad button")
+    async def button(self, ctx: interactions):
+        await ctx.response.send_message("inja yek adad button hast!", view=Button())
+
+
+async def setup(bot):
+    await bot.add_cog(Button)
+ ```
+ 
+ 
 
 
 
