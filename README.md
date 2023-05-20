@@ -242,5 +242,10 @@ async def setup(bot):
 
 https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/c1bf17ff-0804-43ff-bb2f-83b7d2450d1b
 
+* خب شاید بخاین کامندی که میزنید رو فقط خودتون ببینید و کس دیگه ای نبینه پس میاید اینا و این کارو میکنید
+
+<img width="374" alt="image" src="https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/3b75cb64-d58e-4bb6-989c-e006ccc4fa72">
+
+
 
 
