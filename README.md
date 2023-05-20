@@ -269,7 +269,7 @@ class Button(discord.ui.View):
     async def vay(self, interaction: discord.Interaction, button: discord.ui.Button):
         await interaction.response.send_message("oh to roye button click kardi", ephemeral=True)
 
-class Button(commands.Cog):
+class Buttonn(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -279,7 +279,7 @@ class Button(commands.Cog):
 
 
 async def setup(bot):
-    await bot.add_cog(Button)
+    await bot.add_cog(Buttonn(bot))
  ```
  
  
@@ -287,6 +287,10 @@ async def setup(bot):
  تویه کد بالا ما یک کلاس برایه باتن ساختیم و تویه کامندمون اون اخر گفتیم `view=Button`که نام کلاس باتنمون هست تا کد اون رو شناسایی کنه
  استایلم به danger و ایموجی باتن به 📁 تنظیم شده که بعدا اینارو توضیح میدم که چین بریم اول تستش کنیم ! 
  
+
+
+
+https://github.com/sersViu/discord.py-bot-per-tui/assets/133254907/afca40b2-7bd2-42fe-8d26-85a713ab6f2d
 
 
 
