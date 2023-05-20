@@ -262,10 +262,8 @@ from discord import interactions, app_commands
 from discord.ext import commands
 
 class Button(discord.ui.View):
-    def __init__(self, *, timeout=180, boble=None, rand_receipt=None):
+    def __init__(self, *, timeout=180):
         super().__init__(timeout=timeout)
-        self.button_clicked = False
-
 
     @discord.ui.button(label="yek dokme", style=discord.ButtonStyle.danger, emoji="📁")
     async def vay(self, interaction: discord.Interaction, button: discord.ui.Button):
@@ -284,6 +282,10 @@ async def setup(bot):
     await bot.add_cog(Button)
  ```
  
+ 
+ 
+ تویه کد بالا ما یک کلاس برایه باتن ساختیم و تویه کامندمون اون اخر گفتیم `view=Button`که نام کلاس باتنمون هست تا کد اون رو شناسایی کنه
+ استایلم به danger و ایموجی باتن به 📁 تنظیم شده که بعدا اینارو توضیح میدم که چین بریم اول تستش کنیم ! 
  
 
 
